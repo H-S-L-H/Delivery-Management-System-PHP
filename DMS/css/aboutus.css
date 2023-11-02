@@ -1,0 +1,62 @@
+.about-us .lead {
+  margin-bottom: 120px;
+}
+
+.about-us .team {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.about-us .lead .team_lead {
+  font-size: 18px;
+}
+
+.about-us .team .team_member {
+  background: #FFCE00;
+  margin: 6px;
+  margin-bottom: 50px;
+  width: 546px;
+  padding: 20px;
+  line-height: 20px;
+  color: burlywood;
+  position: relative;
+}
+
+.about-us .team .team_member h3 {
+  color: #07509E;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.about-us .team .team_member p.role {
+  color: #07509E;
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+.about-us ul {
+  color: #07509E;
+  list-style: disc;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.about-us .team .team_member .team_img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.about-us .team .team_member .team_img img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}

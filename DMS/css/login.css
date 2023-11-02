@@ -1,0 +1,65 @@
+.login-form{
+    background-color: #FFCE00;
+    border-radius: 15px;
+}
+
+.login-form input[type=text],.login-form input[type=password]{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #07509E;
+    background-color: transparent;
+    font-family: 'NotoSansRegular';
+    padding-left: 40px;
+}
+.login-form input[type=text],.login-form input[type=password]:focus {
+    outline-style: none;
+    box-shadow: none;
+    background-color:transparent;
+    font-family: 'NotoSansRegular';
+  }
+.login-form .input-with-icon{
+    position: relative;
+}
+.login-form .input-with-icon i{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    color: #07509E;
+}
+.login-form .form-control{
+    color: #07509E;
+    font-family: 'NotoSansRegular';
+}
+
+.login-form h4{
+    font-family: 'NotoSansBold';
+    color: #07509E;
+    font-size: 30px;
+}
+.login-form a{
+    font-family: 'NotoSansBold';
+    color: #07509E;
+}
+.login-form label{
+    color: #07509E;
+    font-family: 'NotoSansRegular';
+}
+.login-form button{
+    /* border: #07509E; */
+    background-color: #07509E;
+    color: #ffffff;
+}
+.login-form button:hover{
+    background-color: #07509E;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+.login-form button:active{
+    background-color: #07509E;
+    color: #ffffff;
+}
+
+.login-form p{
+    color: #07509E;
+    font-family: 'NotoSansRegular';
+}

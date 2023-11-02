@@ -1,0 +1,72 @@
+.contact-us .first-row{
+  background-color: #FFCE00;
+  color: #07509E;
+}
+
+.contact-us .first-row .col-sm:first-child{
+  border-right: 1px solid #07509E;
+}
+
+.contact-us .social-media p {
+  margin-bottom: 2px;
+}
+
+.contact-us .social-icons {
+  display: flex;
+}
+
+.contact-us .social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #04549c, #15619b);
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 0.5rem;
+  transition: 0.3s;
+}
+
+.contact-us .social-icons a:hover {
+  transform: scale(1.05);
+}
+
+.contact-us .form-control {
+  border: 1px solid #07509E;
+  background-color: transparent;
+  color: #07509E;
+}
+
+.contact-us .form-control:focus {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #07509E;
+}
+
+.contact-us .contact-btn {
+  background-color: #07509E;
+  color: white;
+}
+
+.contact-us .second-row .col-sm,
+.contact-us .third-row .col-sm {
+  border: 2px solid #FFCE00;
+}
+
+.contact-us .second-row .col-sm:hover,
+.contact-us .third-row .col-sm:hover {
+  transform: scale(1.05);
+}
+
+.contact-us .second-row .col-sm p,
+.contact-us .third-row .col-sm p {
+  color: white;
+}
+
+.contact-us .contact-btn:hover {
+  transform: scale(1.05);
+}
+
+.contact-us .colored-toast.swal2-icon-success {
+  background-color: #FFCE00 !important;
+}

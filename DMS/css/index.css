@@ -1,0 +1,119 @@
+/* ------ Main Section ------ */
+
+.home-page .container h2{
+    color: #FFCE00;
+    line-height: 1.5;
+    font-family: 'NotoSansExtraBold';
+    font-weight: 600;
+}
+
+.home-page .container img{
+    width: 250px;
+}
+
+.home-page .container .lead{
+    color: white;
+    font-family: 'NotoSansRegular';
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.home-page .container .tracking-form{
+    background-color: #E2F5EF;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.home-page .container .tracking-btn{
+    background-color: #FFCE00;
+    color: #07509E;
+    font-family: 'NotoSansRegular';
+    font-size: 14px;
+    font-weight: 600;
+}
+::-webkit-input-placeholder {
+    font-size: 14px;
+    font-family: 'NotoSansRegular';
+ }
+
+ /* Service / Delivery-place / questions */
+
+ .home-page .delivery-service h3,.delivery-place h3,.questions h3{
+    font-family:  'NotoSansMedium';
+ }
+ .home-page .delivery-service p{
+    font-family: 'NotoSansRegular';
+    font-size: 19px;
+ }
+ .home-page .delivery-service .service-img:hover{
+    transform: scale(1.05);
+ }
+
+/* ------ Carousel ------ */
+
+.home-page .carousel{
+    
+    background: linear-gradient(180deg, #EEF0FF 0%, #F3EBA2 100%);
+    transform: rotate(-0.09deg);
+  }
+  
+  .home-page .carousel .carousel-inner p{
+    color: #07509E;
+    text-align: center;
+  }
+
+  .home-page .accordion-header{
+    background-color: #FFCE00;
+    border-radius: 1px;
+}
+.home-page .accordion-body {
+    background-color: #ffcc007d;
+  }
+  
+  /* price calcutate */
+
+  .home-page .price-calculate{
+    background-color: #FFCE00;
+    border-radius: 20px;
+  }
+
+  .home-page .price-calculate h4{
+    font-family: 'NotoSansBold';
+    color: #07509E;
+  }
+
+  .home-page .price-calculate p{
+    font-family: 'NotoSansRegular';
+    color: #07509E;
+    line-height: 2;
+  }
+
+  .home-page .calculate-form{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+  }
+ 
+  .home-page .calculate-form .calculate-btn {
+    background-color: #FFCE00;
+    font-family: 'NotoSansRegular';
+    color: #07509E;
+    margin-top: 33px;
+  }
+
+  .home-page .calculate-form .form-select,.calculate-form .form-label,.calculate-form .form-control{
+    color: #07509E;
+    font-family: 'NotoSansRegular';
+  }
+
+  .home-page .calculate-form .form-control, .calculate-form .form-select {
+    border: 2px solid #FFCE00;
+    background-color: transparent;
+    color: #07509E;
+  }
+
+  /* .calculate-form .price-result{
+    width: 400px; 
+    height: 200px; 
+    border-radius: 10px;
+    background-color: grey;
+  } */

@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  /*font-family: 'Helvetica Neue', sans-serif;*/
+  font-family:'NotoSansMyanmar';
+}
+
+@font-face {
+  font-family: NotoSansBlack;
+  src: url(../font/NotoSansMyanmar-Black.ttf);
+}
+
+@font-face {
+  font-family: NotoSansBold;
+  src: url(../font/NotoSansMyanmar-Bold.ttf);
+}
+
+@font-face {
+  font-family: NotoSansExtraBold;
+  src: url(../font/NotoSansMyanmar-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: NotoSansLight;
+  src: url(../font/NotoSansMyanmar-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: NotoSansLight;
+  src: url(../font/NotoSansMyanmar-Light.ttf);
+}
+
+@font-face {
+  font-family: NotoSansMedium;
+  src: url(../font/NotoSansMyanmar-Medium.ttf);
+}
+
+@font-face {
+  font-family: NotoSansRegular;
+  src: url(../font/NotoSansMyanmar-Regular.ttf);
+}
+
+@font-face {
+  font-family: NotoSansSemiBold;
+  src: url(../font/NotoSansMyanmar-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: NotoSansThin;
+  src: url(../font/NotoSansMyanmar-Thin.ttf);
+}
+
+
+
+body {
+  background-image: url("../images/HomePage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-nav {
+  margin-left: 89px;
+}
+
+.nav-item .active {
+  color: #FFCE00 !important; 
+}
+
+.nav-item {
+  margin-right: 1px;
+}
+
+.nav-login .nav-link {
+  background-color: #FFCE00;
+  margin-right: 0px;
+}
+
+.nav-login .dropdown-toggle {
+  background-color: #FFCE00; 
+  border: none; 
+  color: #07509E;
+}
+
+.nav-login .dropdown-toggle:active {
+  background-color: #FFCE00; 
+  border: none; 
+  color: #07509E;
+}
+
+.nav-login a {
+  color: #07509E;
+}
+
+
+  /* footer */
+
+ hr{
+  color: #07509E ;
+ }
+
+footer a {
+  color: #07509E ;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+footer h5{
+  color: #07509E;
+  font-family: 'NotoSansMedium' 
+}
+
+footer p,footer i{
+  color: #07509E;
+  font-family: 'NotoSansRegular' ;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+footer {
+  background: #FFCE00;
+}

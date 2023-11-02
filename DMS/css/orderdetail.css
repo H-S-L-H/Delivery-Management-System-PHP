@@ -1,0 +1,24 @@
+.order-detail  .order-detail-row {
+  background-color: #FFCE00;
+  border-radius: 10px;
+  color: #07509E;
+}
+
+.order-detail .modal-content {
+  background-color: #FEDF5A;
+  border-radius: 10px;
+  color: #07509E;
+}
+
+.order-detail .modal-header {
+  border-bottom: 1px solid #07509E;
+}
+
+.order-detail .modal-open {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.order-detail hr {
+  border-bottom: 1px dotted #07509E;
+}
